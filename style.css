@@ -16,6 +16,9 @@ body {
 }
 
 .link-primary{
+   box-sizing: border-box;
+   display: block;
+   max-width: 146px;
    text-decoration: none;
    background-color: var(--primary-color);
    color: white;
@@ -24,6 +27,9 @@ body {
 }
 
 .link-secondary{
+   box-sizing: border-box;
+   display: block;
+   max-width: 146px;
    text-decoration: none;
    color: var(--primary-color);
    border: 1px solid var(--primary-color);
@@ -119,4 +125,12 @@ body {
 .footer .foot-link{
    color: white;
    text-decoration: none;
+}
+
+
+/* Projects */
+
+.date{
+   font-weight: 100;
+   font-size: small;
 }
