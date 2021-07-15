@@ -134,3 +134,31 @@ body {
    font-weight: 100;
    font-size: small;
 }
+
+/* Blog div */
+
+.blog-div{
+   padding: 3rem 2rem;
+   margin: auto;
+}
+
+.blog-div .blog-img{
+   max-width: 90%;
+   width: 1050px;
+   padding-top: 2rem;
+}
+
+.blog-div h1{
+   color: var(--primary-color);
+   font-weight:900;
+}
+
+.blog-div h4{
+   color: var(--dark-gray);
+}
+
+.blog-div .quote{
+   background-color: var(--off-white);
+   padding: 1rem 0rem;
+   font-style: italic;
+}
