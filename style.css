@@ -1,164 +1,233 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
-
-:root{
-   --primary-color: #659DBD;
-   --off-white: #F3F4F6;
-   --dark-gray: #6B7280;
-}
-
-p{
-   font-weight: 300;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0px;
 }
 
 body {
-   font-family: 'Merriweather', serif;
-   margin: 0px;
+    font-family: 'Poppins', serif;
 }
 
-.link-primary{
-   box-sizing: border-box;
-   display: block;
-   max-width: 146px;
-   text-decoration: none;
-   background-color: var(--primary-color);
-   color: white;
-   padding: 0.4rem 1.5rem;
-   border-radius: 12px;
+:root {
+    --primary-color: #457b9d;
+    --white: white;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
+    --projects: #EDF2F5;
+    /* CCDAE3,779FB7 */
 }
 
-.link-secondary{
-   box-sizing: border-box;
-   display: block;
-   max-width: 146px;
-   text-decoration: none;
-   color: var(--primary-color);
-   border: 1px solid var(--primary-color);
-   border-radius: 12px;
-   padding: 0.4rem 1.5rem;
+.nav-bar {
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 20px;
 }
 
-.container-center{
-   max-width: 650px;
-   margin: auto;
-   padding: 0rem 0.5rem;
+.non-bulleted-list {
+    list-style: none;
 }
 
-.gr{
-   background-color: var(--off-white);
+.links {
+    text-decoration: none;
+    color: var(--white);
 }
 
-.navbar{
-   background-color: var(--primary-color);
-   color: white;
-   padding: 1rem;
-   border-bottom-left-radius: 20px;
-}
-.navbar .nav-brand{
-   font-weight: 600;
-}
-.navbar .nav-ul{
-   text-align: right;
-   list-style: none;
-}
-.navbar .nav-li{
-   display: inline;
-   padding: 1rem;
-}
-.navbar .nav-link{
-   color: white;
-   text-decoration: none;
-   text-align: right;
+.nav-list {
+    text-align: center;
+    padding: 1rem;
 }
 
-.headerr{
-   padding: 2rem;
-   padding-top: 3rem;
-}
-.headerr .head-img{
-   max-width: 90%;
-   width: 450px;
-   display: block;
-   padding-bottom: 1rem;
-   margin: auto;
-}
-.headerr .head-heading{
-   color: var(--dark-gray);
-   text-align: center;    
-}
-.headerr .myName{
-   color: var(--primary-color);
-}
-.head-text{
-   text-align: center;
+.active {
+    font-weight: bolder;
 }
 
-.section{
-   padding: 2rem;
+.nav-list li {
+    font-size: 17px;
+    font-weight: 400;
+    display: inline;
+    padding-inline: 1.4rem;
 }
 
-.section h1{
-   text-align: center;
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
 }
 
-.footer{
-   background-color: var(--primary-color);
-   padding: 2rem 1rem;
-   text-align: center;
-   border-top-right-radius: 20px;
+.header {
+    text-align: center;
+    margin-top: 3rem;
 }
 
-.footer div{
-   font-weight: 600;
-   font-size: large;
-   color: white;
+.header-img {
+    width: 90%;
+    max-width: 450px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 
-.footer .foot-ul{
-   padding-inline-start: 0px;
-   text-align: center;
-   list-style: none;
+.highlighted {
+    font-weight: bolder;
+    color: var(--primary-color);
 }
-.footer .foot-li{
-   display: inline;
-   padding-inline: 1rem;
+
+.header-heading {
+    color: var(--dark-gray);
 }
-.footer .foot-link{
-   color: white;
-   text-decoration: none;
+
+.header p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sections {
+    margin: 2rem 0rem;
+    padding: 2rem 0rem;
+}
+
+.sections h1 {
+    text-align: center;
+    padding-bottom: 0.6rem;
+}
+
+.sections p {
+    padding: 0rem 0.5rem;
+}
+
+.sections {
+    text-align: justify;
+}
+
+.slight-gray {
+    background-color: var(--off-white);
+}
+
+.btn {
+    border-radius: 20px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.link-p {
+    font-size: 15px;
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.8rem 1rem;
+}
+
+.link-s {
+    font-size: 15px;
+    margin-top: 1rem;
+    color: var(--primary-color);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--primary-color);
+}
+
+.link-primary {
+    font-size: 12px;
+    margin-top: 0.5rem;
+    padding: 0.4rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.link-secondary {
+    font-size: 12px;
+    color: var(--primary-color);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+    text-align: center;
+    border-top-right-radius: 20px;
+}
+
+.footer div {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.footer i {
+    font-size: 35px;
 }
 
 
 /* Projects */
 
-.date{
-   font-weight: 100;
-   font-size: small;
+.project-container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
 }
+
+.project-section {
+    margin: 2rem 0rem;
+}
+
+.project-section h3 {
+    margin-bottom: 0.2rem;
+}
+
+.project-section p {
+    text-align: justify;
+}
+
+.project-div {
+    box-sizing: border-box;
+    background-color: var(--projects);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.project-div p {
+    margin-top: 0.5rem;
+}
+
+.project-div span {
+    padding: 0rem 0.5rem;
+    color: var(--white);
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+}
+
 
 /* Blog div */
 
-.blog-div{
-   padding: 3rem 2rem;
-   margin: auto;
+.blog-container {
+    width: 90%;
+    max-width: 720px;
+    margin: auto;
 }
 
-.blog-div .blog-img{
-   max-width: 90%;
-   width: 1050px;
-   padding-top: 2rem;
+.blog-div {
+    margin-top: 3rem;
+    text-align: justify;
 }
 
-.blog-div h1{
-   color: var(--primary-color);
-   font-weight:900;
+.blog-img {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 2rem;
 }
 
-.blog-div h4{
-   color: var(--dark-gray);
+.blog-div h1 {
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
-.blog-div .quote{
-   background-color: var(--off-white);
-   padding: 1rem 0rem;
-   font-style: italic;
+.blog-div h4 {
+    color: var(--dark-gray);
+}
+
+.blog-div .quote {
+    background-color: var(--off-white);
+    padding: 1rem 0rem;
+    font-style: italic;
 }
