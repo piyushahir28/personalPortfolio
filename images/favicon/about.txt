@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Nova Oval
+- Font Author: http://scripts.sil.org/OFL
+- Font Source: http://fonts.gstatic.com/s/novaoval/v14/jAnEgHdmANHvPenMaswCMY-h3cWkWg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
